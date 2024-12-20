@@ -1,0 +1,298 @@
+/*Global properties*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* First section */
+#header{
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+#header-caption h1{
+font-size: 60px;
+}
+#header-caption h3{
+    font-size: 40px;
+}
+#header-caption h3::after{
+    content: "";
+    animation: typing 18s  infinite;
+}
+
+/* Designer
+Developer
+freelancer
+photographer */
+
+@keyframes typing {
+    0%{content: "D";}
+ 1%{content: "De";}
+    2%{content: "Des";}
+    3%{content: "Desi";}
+    4%{content: "Desig";}
+    5%{content: "Design";}
+    6%{content: "Designe";}
+    7%{content: "Designer";} 
+    8%{content: "Designer";} 
+    9%{content: "Designer";} 
+    10%{content: "Designer";} 
+    11%{content: "Designe";}
+    12%{content: "Design";}
+    13%{content: "Design";}
+    14%{content: "Desig";}
+    15%{content: "Desi";}
+    16%{content: "Des";}
+    17%{content: "De";}
+    18%{content: "Dev";}
+    19%{content: "Deve";}
+    20%{content: "Devel";}
+    21%{content: "Develo";}
+    22%{content: "Develop";}
+    23%{content: "Develope";}
+
+
+    24%{content: "Developer";}
+    25%{content: "Developer";}
+    26%{content: "Developer";}
+    27%{content: "Developer";}
+    28%{content: "Develope";}
+    29%{content: "Develop";}
+    30%{content: "Develo";}
+    31%{content: "Devel";}
+    32%{content: "Deve";}
+    33%{content: "Dev";}
+    34%{content: "De";}
+    35%{content: "D";}
+
+    36%{content: "";}
+    37%{content: "F";}
+    38%{content: "Fr";}
+    39%{content: "Fre";}
+    40%{content: "Free";}
+    41%{content: "Freel";}
+    42%{content: "Freela";}
+    43%{content: "Freelan";}
+    44%{content: "Freelanc";}
+    45%{content: "Freelance";}
+    46%{content: "Freelancer";} 
+    47%{content: "Freelancer";}  
+    48%{content: "Freelancer";}  
+    49%{content: "Freelancer";}   
+    50%{content: "Freelance";}
+    51%{content: "Freelanc";}
+    52%{content: "Freelan";}
+    60%{content: "Freela";}
+    62%{content: "Freel";}
+    64%{content: "Free";}
+    66%{content: "Fre";}
+    68%{content: "Fr";}
+    70%{content: "F";}
+    72%{content: "";}
+
+    74%{content: "P";}
+    75%{content: "Ph";}
+    76%{content: "Pho";}
+    77%{content: "Phot";}
+    78%{content: "Photo";}
+    79%{content: "Photog";}
+    80%{content: "Photogr";}
+    81%{content: "Photogra";}
+    82%{content: "Photograp";}
+    84%{content: "Photograph";}
+    85%{content: "Photographe";}
+    86%{content: "Photographer";}
+    87%{content: "Photographe";}
+    89%{content: "Photograph";}
+    90%{content: "Photograp";}
+    91%{content: "Photogra";}
+    92%{content: "Photogr";}
+    93%{content: "Photog";}
+    94%{content: "Photo";}
+    96%{content: "Phot";}
+    97%{content: "Pho";}
+    98%{content: "Ph";}
+    99%{content: "P";}
+    100%{content: "";}
+}
+.nav-link{
+    position: relative;
+    
+}
+.home::after{
+    content: '';
+width: 56%;
+height: 1px;
+background: white;
+position: absolute;
+bottom: 0;
+left: 0;
+
+}
+.nav-link:hover::after{
+    content: '';
+    width: 56%;
+    height: 1px;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 5s;
+      
+}
+
+.dropdown a:hover{
+    color: #0078ff;
+}
+
+/* End of first section */
+
+/* Sevices section */
+
+#Services-section i{
+    border: 10px solid rgb(103, 103, 249);
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    padding-top: 30px;
+}
+#Services-section i:hover{
+    border: 10px solid rgb(177, 177, 250);
+    background-color: rgb(103, 103, 249);
+}
+.underline{
+    border-bottom: 5px solid #0078ff;
+    width: 3%;
+    margin-left: 48.5%;
+}
+.underline2{
+    border-bottom: 3px solid #0078ff;
+    width: 15%;
+}
+#Services-section{
+    margin-top: 6%;
+}
+
+#Services-section h1{
+    font-size: 45px;
+}
+
+/* End of Sevices section */
+
+/* Blue section */
+
+#blue-section{
+margin-top: 5%;   
+width: 100%;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+}
+
+#layerr{
+    background-color: rgba(15, 101, 240, 0.6);
+    height: 100%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+#blue-section i{
+    border: 10px solid rgb(186, 186, 242);
+    border-radius: 100%;
+}
+
+.card span{
+    
+    font-size: 13px;
+    width: 18%;
+    padding: 1%;
+    margin-top: -3%;
+    margin-left: 40%;
+}
+.get i:hover{
+    border: 10px solid rgb(177, 177, 250);
+    background-color: rgb(103, 103, 249);
+}
+.card img{
+    transition: all 1s;
+    overflow: hidden;
+}
+.card:hover img{
+    transform:scale(1.1);
+    overflow: hidden;
+}
+
+.card:hover{
+    overflow: hidden;
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+.carousel-indicators{
+    border: none;
+}
+
+
+/* About section */
+
+#about-section h3{
+    position: relative;
+}
+
+/* End of About section */
+
+
+/* Portfolio section */
+
+#Portfolio-section h1{
+    font-size: 45px;
+
+}
+/* End of portofolio section */
+
+
+
+
+/* Fixed arrow */
+
+#arrow{
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+}
+
+#arrow i{
+    color: white;
+    background-color: #0078ff;
+    width: 40px;
+    height: 40px;
+    padding: 14px;
+    border-radius: 100%;
+}
+
+.navbar{
+    position: fixed;
+}
+
+@media screen and (max-width: 700px) {
+    #navbarSupportedContent{
+        display: none;
+        visibility: hidden;
+    }
+.navbar-collapse{
+    visibility: hidden;
+    
+}  
+
+.navbar{
+    display: none;
+}
+
+}
+
+/*End of first section*/
